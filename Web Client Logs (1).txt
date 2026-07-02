@@ -1,0 +1,468 @@
+[Telemetry::Event] Type: RDPClient Details: WebRDCoreVersion 
+ Subdetails: Using librdp: /webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4//2.21.4
+MODULE RUNTIME INITIALIZED
+[Auth] Single account found
+[Telemetry::Event] Type: Auth Details: SetupLoginFromSingleAccount 
+ Subdetails: 
+[TelemetryEvent] LEVEL: 3, Type: RequestCache, Name: ClearCachesWithPrefix, Details: Cleared 0 caches with prefix CPCEndpoints
+[Telemetry::Event] Type: WebRDCoreSDK Details: ClearCachesWithPrefix 
+ Subdetails: Event Type: RequestCache - Details: Cleared 0 caches with prefix CPCEndpoints
+[MainWindow][Fullscreen][Unlocking keyboard]
+[TelemetryEvent] LEVEL: 3, Type: RequestCache, Name: ClearCachesWithPrefix, Details: Cleared 0 caches with prefix rdsdk-cache
+[Telemetry::Event] Type: WebRDCoreSDK Details: ClearCachesWithPrefix 
+ Subdetails: Event Type: RequestCache - Details: Cleared 0 caches with prefix rdsdk-cache
+[Telemetry::Event] Type: Flighting Details: FlightingState 
+ Subdetails: begin getFlighting
+[Telemetry::Event] Type: Flighting Details: FlightingState 
+ Subdetails: Initializing ecs control acquisition.
+[Telemetry::Event] Type: Flighting Details: FlightingState 
+ Subdetails: getFlighting succeed
+[Telemetry::Event] Type: Flighting Details: FlightingState 
+ Subdetails: {"Nh_Feedback":true,"Nh_Feedback_Prod":true,"Nh_Feedback_V2":true,"Nh_Location_Redirection":true,"Nh_SpecialKey_Redirection":true,"Nh_Camera_Redirection":true,"Nh_Use_Avd_Client_Options":true,"Nh_Use_Entra_B2B_TenantId":true,"Nh_Skip_3p_Cookie_Request":true,"Ufp_Use_New_Fpa":true,"Nh_Remote_App_Launcher":true,"Nh_Disable_WebCodecs_Firefox":true,"Nh_Enable_SW_WebCodecs":false,"Nh_Use_CreateDirectConnection":true,"Nh_Flw_Flu_Direct_Connection":true,"Nh_SendDirectConnection_Diagnostics":true,"Nh_Disable_Atm_Fallback":false,"Nh_Enable_Iframe_Support":true,"Nh_Auto_Enable_High_DPI":true,"Nh_Disable_Performance_Metrics":false,"Nh_Force_Web_Workers":0,"Nh_Avd_Additional_Telemetry":false,"Nh_Enable_Request_Caching":true,"Nh_Outage_CacheFallback_Rules":false,"Nh_Use_MultiPD_EndpointId":true,"Nh_Use_GlobalSettings":true,"Nh_Enable_Drag_And_Drop":true,"Nh_Enable_Extended_Clipboard":false,"Nh_Enable_Extended_FileTransfer":false,"Nh_Enable_CoreInput_DVC":false,"Nh_Use_CAE":false,"Nh_Use_Login_Hint":true,"Nh_Split_Screen":true,"Nh_Multi_Monitor":false,"Nh_Multi_Monitor_From_RdCore":false,"Nh_Use_Server_Side_Redirections":false,"Nh_FileTransfer_Download_All":false,"Nh_Enable_Skip_Channel_Join":false,"Nh_Enable_Dummy_Side_Transport":false,"Nh_Enable_Svc_Tunneling":false,"Nh_Enable_Connection_Control_Channel":false,"Nh_Claims_Challenge":false,"Nh_Use_Feedback_Auth":false}
+[MainWindow][Fullscreen][Unlocking keyboard]
+[Telemetry::Event] Type: Flighting Details: FlightingState 
+ Subdetails: Ecs control acquisition successful.
+The icon "product-logo" was used but not registered. See https://github.com/microsoft/fluentui/wiki/Using-icons for more information.
+The icon "product-logo" was used but not registered. See https://github.com/microsoft/fluentui/wiki/Using-icons for more information.
+The icon "account-circle" was used but not registered. See https://github.com/microsoft/fluentui/wiki/Using-icons for more information.
+The icon "account-circle" was used but not registered. See https://github.com/microsoft/fluentui/wiki/Using-icons for more information.
+[Telemetry::Event] Type: Info Details: PerformanceAPIStatus 
+ Subdetails: Performance API is available
+Metric event: AppLoadTime, Duration: 980,
+Metric event: AppStartTime, Duration: 2845,
+Metric event: UnauthFlightingData, Duration: 883,
+Metric event: AuthInitTime, Duration: 11,
+[Env]: AVDEnv:1 ClientEnv:PROD
+[Telemetry::Event] Type: Info Details: NighthawkEnv 
+ Subdetails: [Env]: AVDEnv:1 ClientEnv:PROD
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Initial Load} to {Data Fetch}
+Transition from {Initial Load} to {Data Fetch}
+[Telemetry::Event] Type: Info Details: [InitializeStartupDevice] 
+ Subdetails: ARM
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Checking if flight is enabled for Nh_Mobius_AVD
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Fetching AVD launch URL using getAvdLaunchUrl
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Initializing authenticated telemetry
+[Telemetry] Initiating auth telemetry
+Two extensions have same priority #3 - SystemPropertiesCollector, SystemPropertiesCollector
+[Telemetry::Event] Type: Info Details: TelemetryStatus 
+ Subdetails: Public cloud auth telemetry initialized
+[TelemetryDelegate] Telemetry Delegate already registered.
+[Telemetry] Auth telemetry initialization completed.
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Creating connection with RDP
+[Telemetry::Event] Type: Info Details: [InitAvdAsync][CreateConnectionWithRdp] 
+ Subdetails: Checking flight value of Nh_Use_CreateDirectConnection
+[Telemetry::Event] Type: Info Details: [InitAvdAsync][CreateConnectionWithRdp] 
+ Subdetails: Flight on, using createDirectConnection
+EndpointId b4c8bf2f-a2ce-4a2a-b0e8-8075091c052e found in URL parameters
+[Telemetry::Event] Type: RDPClient Details: MultiPDEndpointId 
+ Subdetails: EndpointId b4c8bf2f-a2ce-4a2a-b0e8-8075091c052e found in URL parameters
+FeedbackInitOptions configuration warning:
+	- FeedbackInitOptions.isProduction is currently false. Please make sure to set this value to true when deploy your application in production environment.
+
+[TelemetryEvent] LEVEL: 3, Type: RequestSuccess, Name: SingleResourceDiscovery.URL, Details: {"RequestName":"SingleResourceDiscovery.URL","StatusCode":200,"RequestUrl":"https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery/tenants/*****/app/*****","Duration":1690.7999999970198}
+[TelemetryEvent] LEVEL: 3, Type: DiagnosticsEvent, Name: DirectLaunchStartEvent, Details: UriProtocolLaunch
+[Telemetry::Event] Type: WebRDCoreSDK Details: DirectLaunchStartEvent 
+ Subdetails: Event Type: DiagnosticsEvent - Details: UriProtocolLaunch
+[Diagnostic Event] {"Attributes":{"Type":"Start","Timestamp":"2026-05-22T03:53:15.685Z","Component":"Client","RoleInstance":"rdwebclient","ActivityHint":"ms-wvd-ep:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityType":"Connection","UserName":"2499453@cognizant.com","ActivityId":"66221492-8552-4a3f-b55d-7b8c63930000","ClientType":"cpc.web.ame","ClientVersion":"2.0.03414.1606","ClientOS":"Windows 10","PlatformName":"Chrome","PlatformVersion":"146.0.0.0","LaunchSource":"UriProtocolLaunch"}}
+EndpointId b4c8bf2f-a2ce-4a2a-b0e8-8075091c052e will be added to the URL.
+[TelemetryEvent] LEVEL: 3, Type: RequestSuccess, Name: RDP.File.URL, Details: {"RequestName":"RDP.File.URL","StatusCode":200,"RequestUrl":"https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery/tenants/*****/rdps/*****.rdp?****","Duration":120}
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Determining if the connection is a remote app
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Fetching device name using getAvdDeviceName
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Extracting remote application info if present
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Determining device type using getAvdDeviceType
+[Telemetry::Event] Type: Info Details: [InitAvdAsync] 
+ Subdetails: Starting broadcast channel if remote app
+[Telemetry::Event] Type: Info Details: [InitAvdAsync][StartConnection] 
+ Subdetails: Device type: avd desktop
+Metric event: DataFetchTime, Duration: 2511,Device Type: avd desktop
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Data Fetch} to {Transitory: Data Fetch Done}
+Transition from {Data Fetch} to {Transitory: Data Fetch Done}
+[ClientSettings] Use nh connection settings / no global settings
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Transitory: Data Fetch Done} to {Transitory: Start Connect}
+Transition from {Transitory: Data Fetch Done} to {Transitory: Start Connect}
+Failed to send IframeEvent: ,{"type":"Connecting","interactionRequired":false,"connectionId":"4aae36a6-c211-4016-92a7-23b96c9f0000","sessionId":"95aeb7d8-6fae-4e57-9416-7c1798d1dba2"}
+[Telemetry::Event] Type: Info Details: ResourcePage 
+ Subdetails: UI modal displayed
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Transitory: Start Connect} to {Resources}
+Transition from {Transitory: Start Connect} to {Resources}
+[TelemetryEvent] LEVEL: 3, Type: RequestCache, Name: PurgeCache, Details: Purged 0 expired cache entries
+[Telemetry::Event] Type: WebRDCoreSDK Details: PurgeCache 
+ Subdetails: Event Type: RequestCache - Details: Purged 0 expired cache entries
+[TelemetryEvent] LEVEL: 3, Type: RequestCache, Name: PurgeCache, Details: Purged 0 expired cache entries
+[Telemetry::Event] Type: WebRDCoreSDK Details: PurgeCache 
+ Subdetails: Event Type: RequestCache - Details: Purged 0 expired cache entries
+[TelemetryEvent] LEVEL: 3, Type: RequestCache, Name: PurgeCachesWithPrefix, Details: Purged 1 caches with prefix rdsdk-cache
+[Telemetry::Event] Type: WebRDCoreSDK Details: PurgeCachesWithPrefix 
+ Subdetails: Event Type: RequestCache - Details: Purged 1 caches with prefix rdsdk-cache
+Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 1791 more)
+[Telemetry::Event] Type: Click Details: ResourcePage 
+ Subdetails: click connect button in resource page
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Resources} to {Connecting}
+Transition from {Resources} to {Connecting}
+[Connection] Ready,
+Performing direct connection setup
+[Telemetry::Event] Type: RDPClient Details: ConnectionStatus 
+ Subdetails: Performing direct connection setup
+No Module was passed. Attempting to use Global Module
+2026-05-22T03:53:21.497Z RdpFileParser(NORM): Setting "gatewayusagemethod" = "1"
+2026-05-22T03:53:21.498Z RdpFileParser(NORM): Setting "gatewayprofileusagemethod" = "1"
+2026-05-22T03:53:21.498Z RdpFileParser(NORM): Setting "authentication level" = "1"
+2026-05-22T03:53:21.498Z RdpFileParser(NORM): Setting "gatewaybrokeringtype" = "1"
+2026-05-22T03:53:21.499Z RdpFileParser(NORM): Setting "wvd endpoint pool" = "dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.499Z RdpFileParser(NORM): Setting "geo" = "US__False"
+2026-05-22T03:53:21.499Z RdpFileParser(NORM): Setting "armpath" = "/subscriptions/8250f9bb-b9fa-4472-a454-e1cfd1ef0f09/resourcegroups/AzResourceGpAVDhosts/providers/Microsoft.DesktopVirtualization/hostpools/WVDWSSADEGNC"
+2026-05-22T03:53:21.499Z RdpFileParser(NORM): Setting "aadtenantid" = "de08c407-19b9-427d-9fe8-edf254300ca7"
+2026-05-22T03:53:21.499Z RdpFileParser(NORM): Setting "full address" = "rdgateway-r1.wvd.microsoft.com"
+2026-05-22T03:53:21.500Z RdpFileParser(NORM): Setting "alternate full address" = "rdgateway-r1.wvd.microsoft.com"
+2026-05-22T03:53:21.500Z RdpFileParser(NORM): Setting "diagnosticserviceurl" = "https://rdweb-g-us-r1.wvd.microsoft.com/api/arm/DiagnosticEvents/v1"
+2026-05-22T03:53:21.501Z RdpFileParser(NORM): Setting "hubdiscoverygeourl" = "https://rdweb-g-us-r1.wvd.microsoft.com/api/arm/hubdiscovery?resourceId=dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.502Z RdpFileParser(NORM): Setting "resourceprovider" = "arm"
+2026-05-22T03:53:21.502Z RdpFileParser(NORM): Setting "gatewayhostname" = "afdfp-rdgateway-r1.wvd.microsoft.com:443"
+2026-05-22T03:53:21.503Z RdpFileParser(NORM): Setting "loadbalanceinfo" = "mth://localhost/33213720-8e42-4e62-9fdb-6c792c7df588/dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.503Z RdpFileParser(NORM): Setting "workspace id" = "ba378546-3363-409e-a4a6-8eb44171978a"
+2026-05-22T03:53:21.503Z RdpFileParser(NORM): Setting "promptcredentialonce" = "1"
+2026-05-22T03:53:21.504Z RdpFileParser(NORM): Setting "gatewaycredentialssource" = "0"
+2026-05-22T03:53:21.504Z RdpFileParser(NORM): Setting "remoteapplicationprogram" = "||3a59631b-e3ba-40b2-39bb-08dc59d84363"
+2026-05-22T03:53:21.504Z RdpFileParser(NORM): Setting "remotedesktopname" = "WVDWSSADEGNC"
+2026-05-22T03:53:21.504Z RdpFileParser(NORM): Setting "remoteapplicationmode" = "0"
+2026-05-22T03:53:21.504Z RdpFileParser(NORM): Setting "drivestoredirect" = ""
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "audiomode" = "0"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "videoplaybackmode" = "1"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "redirectclipboard" = "0"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "redirectprinters" = "0"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "devicestoredirect" = "*"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "redirectcomports" = "1"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "redirectsmartcards" = "1"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "usbdevicestoredirect" = "*"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "enablecredsspsupport" = "1"
+2026-05-22T03:53:21.505Z RdpFileParser(NORM): Setting "redirectwebauthn" = "1"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "use multimon" = "1"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "audiocapturemode" = "1"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "screen mode id" = "2"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "autoreconnection enabled" = "1"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "signscope" = "Full Address,Alternate Full Address,EnableCredSspSupport,AutoReconnection Enabled,GatewayHostname,GatewayUsageMethod,GatewayProfileUsageMethod,GatewayCredentialsSource,PromptCredentialOnce,RemoteApplicationProgram,RemoteApplicationMode,RemoteDesktopName,Authentication Level,AudioMode,RedirectPrinters,RedirectCOMPorts,RedirectSmartCards,RedirectClipboard,DevicesToRedirect,DrivesToRedirect,LoadBalanceInfo,ArmPath,Geo,RedirectWebAuthn,AADTenantId,GatewayBrokeringtype,DiagnosticServiceUrl,ResourceProvider,Wvd Endpoint Pool,Workspace Id,AudioCaptureMode"
+2026-05-22T03:53:21.506Z RdpFileParser(NORM): Setting "signature" = "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  HQ4EFgQU3pGGSLehMVkx8UtfB6nciHnaqHYwHwYDVR0jBBgwFoAUTiJUIBiV5uNu  5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMBMGA1UdJQQMMAoGCCsGAQUFBwMB  MHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNl  cnQuY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20v  RGlnaUNlcnRHbG9iYWxSb290RzIuY3J0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6  Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwEwYD  VR0gBAwwCjAIBgZngQwBAgIwDQYJKoZIhvcNAQEMBQADggEBAAu8tCs3dMVLpzYC  Nsav4RPMipqXG/zjRIzuVADl5EEaRvALdjT/mVViNaqtipwMWmLMQ8DL6kodvWsd  r7EZJWac93luWyWAJIGFx3ktNV9CCXjtn+Jl1cQgUIIQj2o67RiOSImrpgn44YD8  BnUWJyVaj7g6cGwYR/Bj9FMO2RU1IPORPRMBoOL6JAhFVnfRZ6kxQtBX/xomvsVD  2FepY/+v8zrY9ntLEKKXoc9mvmdnCfm1TOerGSu/Ij193sb372M4LN1WxPkJUtrf  44hv1W1r9whBL44+hjGf8XxK9dZhpEZGKO9XurBvktjSdyXte6YpzjtyeRHU4KdU  bTUrpHowgge4MIIFoKADAgECAhMzAAAACxPlZn1Km1WAAAAAAAALMA0GCSqGSIb3  DQEBDAUAMFExCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9y  YXRpb24xIjAgBgNVBAMTGU1pY3Jvc29mdCBUTFMgUlNBIFJvb3QgRzIwHhcNMjUw  ODAxMjAwMjU5WhcNMjkwNjAzMjAwMjU5WjBXMQswCQYDVQQGEwJVUzEeMBwGA1UE  ChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgVExT  IEcyIFJTQSBDQSBPQ1NQIDA0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC  AgEAnDokCFoYkvKe1WDN4ub7gEfbRK4r3W0QcCEVRSmq0sfc5sRCsaCNUuBPXDlV  BjZNF8FYZjTihVKf4qT+xt7CwjuGv8qthykG6x1JHV+B27ekrFYa1hKH/V9ASeKg  DGqExk5v3yS4mpV0Wll/rek8ExV4QMzs2u+INkqQ3upjB5TDg2oarpjm8WSAWiln  BOhW9CGmxUaNyN0Cq7wG8GxHeCO7OLC7+01xsN8iw38afvmdqkEq0d5o3ZV0JThm  yRYRxVk9KrFouZM7Zug84fyn/yxrUODAuchxc5Oxd7/tqk0OClXbE5xy4GmtgUza  I/kGyz/tQoqGjA3SDBUl0IZo63hWqi5cCLNNM4BO7jU8L8N6fcFmcmBokPTr9gjs  E9eJkl9cUvSHlXixNuGzQlNuOjc3B8hzdR67XW5nyZp8y0rzxs3wTvWG+xQ1GUY9  l4ZyZN1DNu/UV4IAIgyjOu2zZXBl+YKlurjS6sBoijU3oED1/gKJZqgw+JRHYldH  snubjMeVvOua9saMRInbFuYe/eeJ/IE1NTDqL32JZFKzRhk04ztXTwoYIDHvxf25  sSf2l1k1+wrCRNbQsu1VTR1XSHUS1/KYYBaexAac1K5+LmXHU+QiJRgwY2qQV8WU  tPflTUwNVMcfqT1NCkYJYtAjIlHjjjdMxfQBQJkFgtOisFMCAwEAAaOCAoEwggJ9  MA4GA1UdDwEB/wQEAwIBhjAQBgkrBgEEAYI3FQEEAwIBADAdBgNVHQ4EFgQUVAy8  7Bj3ffED4oS+NGREZ891H2UwEwYDVR0gBAwwCjAIBgZngQwBAgIwEwYDVR0lBAww  CgYIKwYBBQUHAwEwGQYJKwYBBAGCNxQCBAweCgBTAHUAYgBDAEEwEgYDVR0TAQH/  BAgwBgEB/wIBADAfBgNVHSMEGDAWgBTekYZIt6ExWTHxS18HqdyIedqodjCBqwYD  VR0fBIGjMIGgMIGdoIGaoIGXhklodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtp  b3BzL2NybC9NaWNyb3NvZnQlMjBUTFMlMjBSU0ElMjBSb290JTIwRzIuY3Jshkpo  dHRwOi8vY3JsMi5taWNyb3NvZnQuY29tL3BraW9wcy9jcmwvTWljcm9zb2Z0JTIw  VExTJTIwUlNBJTIwUm9vdCUyMEcyLmNybDCCARAGCCsGAQUFBwEBBIIBAjCB/zBj  BggrBgEFBQcwAoZXaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9jZXJ0  cy9NaWNyb3NvZnQlMjBUTFMlMjBSU0ElMjBSb290JTIwRzIlMjAtJTIweHNpZ24u  Y3J0MGkGCCsGAQUFBzAChl1odHRwOi8vY2Fpc3N1ZXJzLm1pY3Jvc29mdC5jb20v  cGtpb3BzL2NlcnRzL01pY3Jvc29mdCUyMFRMUyUyMFJTQSUyMFJvb3QlMjBHMiUy  MC0lMjB4c2lnbi5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vbmVvY3NwLm1pY3Jv  c29mdC5jb20vb2NzcDANBgkqhkiG9w0BAQwFAAOCAgEAfEhxwrbARat0D8Y/SeL8  D9Z1/c1Q0eBLs7PRqJlf/l01DWwL3dCtYWAYiTji8Lc10rUhOgwOWJk4fNTX3QJN  1Nz17pDje2eTqKzUG1C7xU/m0/G1HvD/mbwjM7DIqKYn1tFb7W8U3ksHGgxQ/Q7f  vutPspgQyyIq5h3XS6euFdEBNgkLhkNPTufFflyja4MuST6UiJmLUtOWP3GYJC83  gvpsdPK82wYhu7hQZ3AkFbYLIo/3uSfkA3yElbdmBKmSVcK9EcchCnJ/ZcBgplBJ  6fYjSCA6jpImqBeMmK8Upz3OTK3Ajow8RPF/+xP5FNd7Mz0QXmTnJz0MTOJx12bO  rvdOtmS6VCu3/QPXmGeYN7IKYyDlsPvYpI06LkIimiL0JlWDMBXHokKzv9A2xTZS  p3NnenNuVKy86YnYpesfbawnUMTI69QcVClNu7beq9fH8R8UZLp/RzFl73l9FMTw  GeSAduc7KACbRG8kV/UH3I5atABYl1axC/oIdXHeG1PI7r3wqyJMvWu6XYpEWTwk  a6q86X2LX0pN14xUsKt2m4AoTUV0ZRBgIfmOeV/akvsXhADbxK6CWYE8J3eeVvcH  yL2+PZHFl4rmnA9ZFlhIbH2kFjLtFsktp5b15P3Fz2Wk3dcA6MkO9J2ypAKAzBvw  KOuwMXc0nsPM18ibNrvFJeIwggk0MIIHHKADAgECAhNDAB4iIx3o9OXCG4WIAAAA  HiIjMA0GCSqGSIb3DQEBDAUAMFcxCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNy  b3NvZnQgQ29ycG9yYXRpb24xKDAmBgNVBAMTH01pY3Jvc29mdCBUTFMgRzIgUlNB  IENBIE9DU1AgMDQwHhcNMjYwNDI5MDYxOTM4WhcNMjYxMDI2MDYxOTM4WjBsMQsw  CQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNV  BAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEeMBwGA1UEAxMVcmRwLnd2ZC5taWNy  b3NvZnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMUt4Q5w  QPjEcVpfedbHrv5LvMFLM7fXcLKHHxq6Iq/B0urXcrX7P9OsgAGckWdUrsPcg+0K  OHsesOSG0HmAD1LfMv1Z1KkFYynYhemVo89c5HL32wRYZKSGfZ1xPlBeCz/VU/2F  TS2y7/Jb5JlrZJMC1P5o3NU3gRK6f6v2to7YN4txqcnSIDh8C9H8sWqdF4DxDyQE  zm9O8PzpN0jfg9ydPMPVwVjPb2lwn/zD4jDk0sXAGNfoMzGRr0hqh3JLBCQlDpvv  ZGNFIH8xYsPB9favuVZ1mjxLQDGS7RzsVXEzY+5P42K1BZZWFSeo9QgnkVdz1BRN  fgboe7cfZIs/nQIDAQABo4IE4jCCBN4wggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsB  aQB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABndft3y4AAAQD  AEcwRQIgRFNWBSVLqrXONO7v3k9RXwWQCLsInXrq4qKJWei6TooCIQD4U1/Lyf+L  Ij2ZDkCwH1EgIblzH1+MrY5D1c6Xw77jKQB2AMIxfldFGaNF7n843rKQQevHwiFa  Ir9/1bWtdprZDlLNAAABndft3zsAAAQDAEcwRQIhAL90c9jsk2ikpNsV7oxIcbDb  rM/ZA0+RMw6NlNJvt567AiAbX3dXLuFCYa4JtgmNuenS9gaFtrob/ATr6EXcCA8i  JAB3AMijxH/Hs625NWsBP2p6Em3jOk5DpcZG+ZetOXWZHc+aAAABndft32EAAAQD  AEgwRgIhAOxxmO2L7dPivoScVV12S4aFuhkJ7p97k/DKtD7RqmSQAiEA+AjA1eUM  Bd41ZjEYg5NTSIo9e5rzZFZ914sUJqF0PjkwGwYJKwYBBAGCNxUKBA4wDDAKBggr  BgEFBQcDATA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3FQiHvdcbgefrRoKBnS6O  0AyH8NodXYPpw2eCtKNMAgFkAgEgMIIBCwYIKwYBBQUHAQEEgf4wgfswYQYIKwYB  BQUHMAKGVWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY2VydHMvTWlj  cm9zb2Z0JTIwVExTJTIwRzIlMjBSU0ElMjBDQSUyME9DU1AlMjAwNC5jcnQwZwYI  KwYBBQUHMAKGW2h0dHA6Ly9jYWlzc3VlcnMubWljcm9zb2Z0LmNvbS9wa2lvcHMv  Y2VydHMvTWljcm9zb2Z0JTIwVExTJTIwRzIlMjBSU0ElMjBDQSUyME9DU1AlMjAw  NC5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vbmVvY3NwLm1pY3Jvc29mdC5jb20v  b2NzcDAdBgNVHQ4EFgQUwyh5bJwMbqXOx53DF8SDKBzmDWgwDgYDVR0PAQH/BAQD  AgWgMCAGA1UdEQQZMBeCFXJkcC53dmQubWljcm9zb2Z0LmNvbTAMBgNVHRMBAf8E  AjAAMIHxBgNVHR8EgekwgeYwgeOggeCggd2GbGh0dHA6Ly93d3cubWljcm9zb2Z0  LmNvbS9wa2lvcHMvY3JsL3BhcnRpdGlvbi9NaWNyb3NvZnQlMjBUTFMlMjBHMiUy  MFJTQSUyMENBJTIwT0NTUCUyMDA0X1BhcnRpdGlvbjAwMDc4LmNybIZtaHR0cDov  L2NybDIubWljcm9zb2Z0LmNvbS9wa2lvcHMvY3JsL3BhcnRpdGlvbi9NaWNyb3Nv  ZnQlMjBUTFMlMjBHMiUyMFJTQSUyMENBJTIwT0NTUCUyMDA0X1BhcnRpdGlvbjAw  MDc4LmNybDBmBgNVHSAEXzBdMAgGBmeBDAECAjBRBgwrBgEEAYI3TIN9AQEwQTA/  BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9Eb2Nz  L1JlcG9zaXRvcnkuaHRtMB8GA1UdIwQYMBaAFFQMvOwY933xA+KEvjRkRGfPdR9l  MBMGA1UdJQQMMAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBDAUAA4ICAQAqv0M4hLdw  5PFeuXywN3SB4qqm3QIJqzUv44BvTKwTg3Dq+6EUAvoz+vwvSVvB0MFw22V8GtDl  SsX4cYoWl1q7eyUY+AVtwOXP3dIVPHOPXnHHe4d4tgU+6z2nha8ZaAPTZFyxPkRL  UXlJqYlgakKjgOuOWq+f99SGiu7LiBwJD7aG745//Hg5jj9txvhCh3fQJSbdwFtW  r3pgXh8kFxCiT/ak/oYkG/pKaWx5xc+FYv5VSsMygfrqVao8DVNjmvUkSOIqRNGA  NNG+ZPvJ7EN5pZ0XhYZt0ZgUxrSoB8Y3ZCj0tJWlVJQ0SbMiWiwOqpPK7ldqX2rs  tChHvjt5oh7PtvGvrmClyHOtUBHh1v42FFSDvggg6+/LT8z9bgN/BUz3tVdQ3DLT  RhytKNob8SGv9qx/vbMxBKX+JOx9waVGa2LlV7g3GWeuCmSIlS2N4UrtcjkXswo7  Jti0XNr4SiZgLKU4EsilF2kjx/UYQHFc7jMlPhBe9fX0QikfrViFS+bmZtonOp2W  PLdUc6OzO7fUer0Kv+81D3zmmbonGOux24roNhtQsvMYMLf6uHF56CB5gLPFLh5y  cuKQgcv3/FZZlraO4pxdfO/NagXFgZk75Ny3OWy+ydtOQaV/r786k9Lx+10d470f  PzQV7aYd16T5MZyuZNORR4mMxEDrh25tQTGCAZUwggGRAgEBMG4wVzELMAkGA1UE  BhMCVVMxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEoMCYGA1UEAxMf  TWljcm9zb2Z0IFRMUyBHMiBSU0EgQ0EgT0NTUCAwNAITQwAeIiMd6PTlwhuFiAAA  AB4iIzALBglghkgBZQMEAgEwCwYJKoZIhvcNAQEBBIIBADUSWB7Sie/mQBbRdjoN  lzHHeh3z5P+ybGNk57eWGWtE9K8CAyY381Urhd5SKKz7lV+0ulh84MwJ/kpOw8l+  9gj5XMNz4pfSzZLfCViwN2ASjvPcFIrEtdmmUbncNnhQxgeHsGo1kI6u/Vibp1hX  If5WJaHOCYDq5S24lK8kwu8e7LAx3BOiJRrOIKAsKMrFL+IeqHy+JBLXhN5tpnc2  gKsxcIGKmODpZ4CWnNMdvHYXqHfn2G/b1Qc0bPnZKEECghsdpkry7WxswVksqsux  M+QvlJvwXAQn12SrRgRGKkp1H+XAoRk3LxVsBb+sZ7EdK15jTrB3L9C3POsngh+A  QpY="
+[Telemetry::Event] Type: RDPClient Details: ConnectionSettings 
+ Subdetails: {"connectionWebWorkers":true,"useEntraTenantId":true,"useCookieForOrchestration":false,"graphics":{"graphicsWebWorkers":false,"webCodecs":true,"preferHardwareForWebCodecs":true},"redirections":{"printer":false,"microphone":true,"clipboard":false,"location":false,"camera":false,"fileTransfer":false},"inputs":{"codePage":1033,"keyboardLayout":1033,"keyboardType":{},"KeyboardSubType":0}}
+2026-05-22T03:53:21.513Z RdClientConnectionProxy::Create(NORM): LibRDP version: 2.21.4
+2026-05-22T03:53:21.513Z RdClientConnectionProxy::Create(NORM): loading webworkers from path: /webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.js
+2026-05-22T03:53:21.514Z WebWorker(NORM): Created Webworker with path: /webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.js onMessage: HandleConnectionMessage
+2026-05-22T03:53:21.529Z TLS::EnsureOSSLSeeded(NORM): A seed of 256 bytes has been provided for OSSL
+2026-05-22T03:53:21.532Z HTML5RdpGraphicsOutputController(NORM): Created in main thread
+2026-05-22T03:53:21.534Z RdpFileParser(NORM): Setting "gatewayusagemethod" = "1"
+2026-05-22T03:53:21.534Z RdpFileParser(NORM): Setting "gatewayprofileusagemethod" = "1"
+2026-05-22T03:53:21.534Z RdpFileParser(NORM): Setting "authentication level" = "1"
+2026-05-22T03:53:21.534Z RdpFileParser(NORM): Setting "gatewaybrokeringtype" = "1"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "wvd endpoint pool" = "dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "geo" = "US__False"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "armpath" = "/subscriptions/8250f9bb-b9fa-4472-a454-e1cfd1ef0f09/resourcegroups/AzResourceGpAVDhosts/providers/Microsoft.DesktopVirtualization/hostpools/WVDWSSADEGNC"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "aadtenantid" = "de08c407-19b9-427d-9fe8-edf254300ca7"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "full address" = "rdgateway-r1.wvd.microsoft.com"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "alternate full address" = "rdgateway-r1.wvd.microsoft.com"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "diagnosticserviceurl" = "https://rdweb-g-us-r1.wvd.microsoft.com/api/arm/DiagnosticEvents/v1"
+2026-05-22T03:53:21.535Z RdpFileParser(NORM): Setting "hubdiscoverygeourl" = "https://rdweb-g-us-r1.wvd.microsoft.com/api/arm/hubdiscovery?resourceId=dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.536Z RdpFileParser(NORM): Setting "resourceprovider" = "arm"
+2026-05-22T03:53:21.536Z RdpFileParser(NORM): Setting "gatewayhostname" = "afdfp-rdgateway-r1.wvd.microsoft.com:443"
+2026-05-22T03:53:21.536Z RdpFileParser(NORM): Setting "loadbalanceinfo" = "mth://localhost/33213720-8e42-4e62-9fdb-6c792c7df588/dc03802b-226c-4cc9-9d37-b03cfe23b7ab"
+2026-05-22T03:53:21.536Z RdpFileParser(NORM): Setting "workspace id" = "ba378546-3363-409e-a4a6-8eb44171978a"
+2026-05-22T03:53:21.536Z RdpFileParser(NORM): Setting "promptcredentialonce" = "1"
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "gatewaycredentialssource" = "0"
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "remoteapplicationprogram" = "||3a59631b-e3ba-40b2-39bb-08dc59d84363"
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "remotedesktopname" = "WVDWSSADEGNC"
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "remoteapplicationmode" = "0"
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "drivestoredirect" = ""
+2026-05-22T03:53:21.537Z RdpFileParser(NORM): Setting "audiomode" = "0"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "videoplaybackmode" = "1"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "redirectclipboard" = "0"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "redirectprinters" = "0"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "devicestoredirect" = "*"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "redirectcomports" = "1"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "redirectsmartcards" = "1"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "usbdevicestoredirect" = "*"
+2026-05-22T03:53:21.538Z RdpFileParser(NORM): Setting "enablecredsspsupport" = "1"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "redirectwebauthn" = "1"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "use multimon" = "1"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "audiocapturemode" = "1"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "screen mode id" = "2"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "autoreconnection enabled" = "1"
+2026-05-22T03:53:21.540Z RdpFileParser(NORM): Setting "signscope" = "Full Address,Alternate Full Address,EnableCredSspSupport,AutoReconnection Enabled,GatewayHostname,GatewayUsageMethod,GatewayProfileUsageMethod,GatewayCredentialsSource,PromptCredentialOnce,RemoteApplicationProgram,RemoteApplicationMode,RemoteDesktopName,Authentication Level,AudioMode,RedirectPrinters,RedirectCOMPorts,RedirectSmartCards,RedirectClipboard,DevicesToRedirect,DrivesToRedirect,LoadBalanceInfo,ArmPath,Geo,RedirectWebAuthn,AADTenantId,GatewayBrokeringtype,DiagnosticServiceUrl,ResourceProvider,Wvd Endpoint Pool,Workspace Id,AudioCaptureMode"
+2026-05-22T03:53:21.541Z RdpFileParser(NORM): Setting "signature" = "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  HQ4EFgQU3pGGSLehMVkx8UtfB6nciHnaqHYwHwYDVR0jBBgwFoAUTiJUIBiV5uNu  5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMBMGA1UdJQQMMAoGCCsGAQUFBwMB  MHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNl  cnQuY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20v  RGlnaUNlcnRHbG9iYWxSb290RzIuY3J0MEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6  Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwEwYD  VR0gBAwwCjAIBgZngQwBAgIwDQYJKoZIhvcNAQEMBQADggEBAAu8tCs3dMVLpzYC  Nsav4RPMipqXG/zjRIzuVADl5EEaRvALdjT/mVViNaqtipwMWmLMQ8DL6kodvWsd  r7EZJWac93luWyWAJIGFx3ktNV9CCXjtn+Jl1cQgUIIQj2o67RiOSImrpgn44YD8  BnUWJyVaj7g6cGwYR/Bj9FMO2RU1IPORPRMBoOL6JAhFVnfRZ6kxQtBX/xomvsVD  2FepY/+v8zrY9ntLEKKXoc9mvmdnCfm1TOerGSu/Ij193sb372M4LN1WxPkJUtrf  44hv1W1r9whBL44+hjGf8XxK9dZhpEZGKO9XurBvktjSdyXte6YpzjtyeRHU4KdU  bTUrpHowgge4MIIFoKADAgECAhMzAAAACxPlZn1Km1WAAAAAAAALMA0GCSqGSIb3  DQEBDAUAMFExCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9y  YXRpb24xIjAgBgNVBAMTGU1pY3Jvc29mdCBUTFMgUlNBIFJvb3QgRzIwHhcNMjUw  ODAxMjAwMjU5WhcNMjkwNjAzMjAwMjU5WjBXMQswCQYDVQQGEwJVUzEeMBwGA1UE  ChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgVExT  IEcyIFJTQSBDQSBPQ1NQIDA0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC  AgEAnDokCFoYkvKe1WDN4ub7gEfbRK4r3W0QcCEVRSmq0sfc5sRCsaCNUuBPXDlV  BjZNF8FYZjTihVKf4qT+xt7CwjuGv8qthykG6x1JHV+B27ekrFYa1hKH/V9ASeKg  DGqExk5v3yS4mpV0Wll/rek8ExV4QMzs2u+INkqQ3upjB5TDg2oarpjm8WSAWiln  BOhW9CGmxUaNyN0Cq7wG8GxHeCO7OLC7+01xsN8iw38afvmdqkEq0d5o3ZV0JThm  yRYRxVk9KrFouZM7Zug84fyn/yxrUODAuchxc5Oxd7/tqk0OClXbE5xy4GmtgUza  I/kGyz/tQoqGjA3SDBUl0IZo63hWqi5cCLNNM4BO7jU8L8N6fcFmcmBokPTr9gjs  E9eJkl9cUvSHlXixNuGzQlNuOjc3B8hzdR67XW5nyZp8y0rzxs3wTvWG+xQ1GUY9  l4ZyZN1DNu/UV4IAIgyjOu2zZXBl+YKlurjS6sBoijU3oED1/gKJZqgw+JRHYldH  snubjMeVvOua9saMRInbFuYe/eeJ/IE1NTDqL32JZFKzRhk04ztXTwoYIDHvxf25  sSf2l1k1+wrCRNbQsu1VTR1XSHUS1/KYYBaexAac1K5+LmXHU+QiJRgwY2qQV8WU  tPflTUwNVMcfqT1NCkYJYtAjIlHjjjdMxfQBQJkFgtOisFMCAwEAAaOCAoEwggJ9  MA4GA1UdDwEB/wQEAwIBhjAQBgkrBgEEAYI3FQEEAwIBADAdBgNVHQ4EFgQUVAy8  7Bj3ffED4oS+NGREZ891H2UwEwYDVR0gBAwwCjAIBgZngQwBAgIwEwYDVR0lBAww  CgYIKwYBBQUHAwEwGQYJKwYBBAGCNxQCBAweCgBTAHUAYgBDAEEwEgYDVR0TAQH/  BAgwBgEB/wIBADAfBgNVHSMEGDAWgBTekYZIt6ExWTHxS18HqdyIedqodjCBqwYD  VR0fBIGjMIGgMIGdoIGaoIGXhklodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtp  b3BzL2NybC9NaWNyb3NvZnQlMjBUTFMlMjBSU0ElMjBSb290JTIwRzIuY3Jshkpo  dHRwOi8vY3JsMi5taWNyb3NvZnQuY29tL3BraW9wcy9jcmwvTWljcm9zb2Z0JTIw  VExTJTIwUlNBJTIwUm9vdCUyMEcyLmNybDCCARAGCCsGAQUFBwEBBIIBAjCB/zBj  BggrBgEFBQcwAoZXaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9jZXJ0  cy9NaWNyb3NvZnQlMjBUTFMlMjBSU0ElMjBSb290JTIwRzIlMjAtJTIweHNpZ24u  Y3J0MGkGCCsGAQUFBzAChl1odHRwOi8vY2Fpc3N1ZXJzLm1pY3Jvc29mdC5jb20v  cGtpb3BzL2NlcnRzL01pY3Jvc29mdCUyMFRMUyUyMFJTQSUyMFJvb3QlMjBHMiUy  MC0lMjB4c2lnbi5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vbmVvY3NwLm1pY3Jv  c29mdC5jb20vb2NzcDANBgkqhkiG9w0BAQwFAAOCAgEAfEhxwrbARat0D8Y/SeL8  D9Z1/c1Q0eBLs7PRqJlf/l01DWwL3dCtYWAYiTji8Lc10rUhOgwOWJk4fNTX3QJN  1Nz17pDje2eTqKzUG1C7xU/m0/G1HvD/mbwjM7DIqKYn1tFb7W8U3ksHGgxQ/Q7f  vutPspgQyyIq5h3XS6euFdEBNgkLhkNPTufFflyja4MuST6UiJmLUtOWP3GYJC83  gvpsdPK82wYhu7hQZ3AkFbYLIo/3uSfkA3yElbdmBKmSVcK9EcchCnJ/ZcBgplBJ  6fYjSCA6jpImqBeMmK8Upz3OTK3Ajow8RPF/+xP5FNd7Mz0QXmTnJz0MTOJx12bO  rvdOtmS6VCu3/QPXmGeYN7IKYyDlsPvYpI06LkIimiL0JlWDMBXHokKzv9A2xTZS  p3NnenNuVKy86YnYpesfbawnUMTI69QcVClNu7beq9fH8R8UZLp/RzFl73l9FMTw  GeSAduc7KACbRG8kV/UH3I5atABYl1axC/oIdXHeG1PI7r3wqyJMvWu6XYpEWTwk  a6q86X2LX0pN14xUsKt2m4AoTUV0ZRBgIfmOeV/akvsXhADbxK6CWYE8J3eeVvcH  yL2+PZHFl4rmnA9ZFlhIbH2kFjLtFsktp5b15P3Fz2Wk3dcA6MkO9J2ypAKAzBvw  KOuwMXc0nsPM18ibNrvFJeIwggk0MIIHHKADAgECAhNDAB4iIx3o9OXCG4WIAAAA  HiIjMA0GCSqGSIb3DQEBDAUAMFcxCzAJBgNVBAYTAlVTMR4wHAYDVQQKExVNaWNy  b3NvZnQgQ29ycG9yYXRpb24xKDAmBgNVBAMTH01pY3Jvc29mdCBUTFMgRzIgUlNB  IENBIE9DU1AgMDQwHhcNMjYwNDI5MDYxOTM4WhcNMjYxMDI2MDYxOTM4WjBsMQsw  CQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNV  BAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEeMBwGA1UEAxMVcmRwLnd2ZC5taWNy  b3NvZnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMUt4Q5w  QPjEcVpfedbHrv5LvMFLM7fXcLKHHxq6Iq/B0urXcrX7P9OsgAGckWdUrsPcg+0K  OHsesOSG0HmAD1LfMv1Z1KkFYynYhemVo89c5HL32wRYZKSGfZ1xPlBeCz/VU/2F  TS2y7/Jb5JlrZJMC1P5o3NU3gRK6f6v2to7YN4txqcnSIDh8C9H8sWqdF4DxDyQE  zm9O8PzpN0jfg9ydPMPVwVjPb2lwn/zD4jDk0sXAGNfoMzGRr0hqh3JLBCQlDpvv  ZGNFIH8xYsPB9favuVZ1mjxLQDGS7RzsVXEzY+5P42K1BZZWFSeo9QgnkVdz1BRN  fgboe7cfZIs/nQIDAQABo4IE4jCCBN4wggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsB  aQB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABndft3y4AAAQD  AEcwRQIgRFNWBSVLqrXONO7v3k9RXwWQCLsInXrq4qKJWei6TooCIQD4U1/Lyf+L  Ij2ZDkCwH1EgIblzH1+MrY5D1c6Xw77jKQB2AMIxfldFGaNF7n843rKQQevHwiFa  Ir9/1bWtdprZDlLNAAABndft3zsAAAQDAEcwRQIhAL90c9jsk2ikpNsV7oxIcbDb  rM/ZA0+RMw6NlNJvt567AiAbX3dXLuFCYa4JtgmNuenS9gaFtrob/ATr6EXcCA8i  JAB3AMijxH/Hs625NWsBP2p6Em3jOk5DpcZG+ZetOXWZHc+aAAABndft32EAAAQD  AEgwRgIhAOxxmO2L7dPivoScVV12S4aFuhkJ7p97k/DKtD7RqmSQAiEA+AjA1eUM  Bd41ZjEYg5NTSIo9e5rzZFZ914sUJqF0PjkwGwYJKwYBBAGCNxUKBA4wDDAKBggr  BgEFBQcDATA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3FQiHvdcbgefrRoKBnS6O  0AyH8NodXYPpw2eCtKNMAgFkAgEgMIIBCwYIKwYBBQUHAQEEgf4wgfswYQYIKwYB  BQUHMAKGVWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY2VydHMvTWlj  cm9zb2Z0JTIwVExTJTIwRzIlMjBSU0ElMjBDQSUyME9DU1AlMjAwNC5jcnQwZwYI  KwYBBQUHMAKGW2h0dHA6Ly9jYWlzc3VlcnMubWljcm9zb2Z0LmNvbS9wa2lvcHMv  Y2VydHMvTWljcm9zb2Z0JTIwVExTJTIwRzIlMjBSU0ElMjBDQSUyME9DU1AlMjAw  NC5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly9vbmVvY3NwLm1pY3Jvc29mdC5jb20v  b2NzcDAdBgNVHQ4EFgQUwyh5bJwMbqXOx53DF8SDKBzmDWgwDgYDVR0PAQH/BAQD  AgWgMCAGA1UdEQQZMBeCFXJkcC53dmQubWljcm9zb2Z0LmNvbTAMBgNVHRMBAf8E  AjAAMIHxBgNVHR8EgekwgeYwgeOggeCggd2GbGh0dHA6Ly93d3cubWljcm9zb2Z0  LmNvbS9wa2lvcHMvY3JsL3BhcnRpdGlvbi9NaWNyb3NvZnQlMjBUTFMlMjBHMiUy  MFJTQSUyMENBJTIwT0NTUCUyMDA0X1BhcnRpdGlvbjAwMDc4LmNybIZtaHR0cDov  L2NybDIubWljcm9zb2Z0LmNvbS9wa2lvcHMvY3JsL3BhcnRpdGlvbi9NaWNyb3Nv  ZnQlMjBUTFMlMjBHMiUyMFJTQSUyMENBJTIwT0NTUCUyMDA0X1BhcnRpdGlvbjAw  MDc4LmNybDBmBgNVHSAEXzBdMAgGBmeBDAECAjBRBgwrBgEEAYI3TIN9AQEwQTA/  BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9Eb2Nz  L1JlcG9zaXRvcnkuaHRtMB8GA1UdIwQYMBaAFFQMvOwY933xA+KEvjRkRGfPdR9l  MBMGA1UdJQQMMAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBDAUAA4ICAQAqv0M4hLdw  5PFeuXywN3SB4qqm3QIJqzUv44BvTKwTg3Dq+6EUAvoz+vwvSVvB0MFw22V8GtDl  SsX4cYoWl1q7eyUY+AVtwOXP3dIVPHOPXnHHe4d4tgU+6z2nha8ZaAPTZFyxPkRL  UXlJqYlgakKjgOuOWq+f99SGiu7LiBwJD7aG745//Hg5jj9txvhCh3fQJSbdwFtW  r3pgXh8kFxCiT/ak/oYkG/pKaWx5xc+FYv5VSsMygfrqVao8DVNjmvUkSOIqRNGA  NNG+ZPvJ7EN5pZ0XhYZt0ZgUxrSoB8Y3ZCj0tJWlVJQ0SbMiWiwOqpPK7ldqX2rs  tChHvjt5oh7PtvGvrmClyHOtUBHh1v42FFSDvggg6+/LT8z9bgN/BUz3tVdQ3DLT  RhytKNob8SGv9qx/vbMxBKX+JOx9waVGa2LlV7g3GWeuCmSIlS2N4UrtcjkXswo7  Jti0XNr4SiZgLKU4EsilF2kjx/UYQHFc7jMlPhBe9fX0QikfrViFS+bmZtonOp2W  PLdUc6OzO7fUer0Kv+81D3zmmbonGOux24roNhtQsvMYMLf6uHF56CB5gLPFLh5y  cuKQgcv3/FZZlraO4pxdfO/NagXFgZk75Ny3OWy+ydtOQaV/r786k9Lx+10d470f  PzQV7aYd16T5MZyuZNORR4mMxEDrh25tQTGCAZUwggGRAgEBMG4wVzELMAkGA1UE  BhMCVVMxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEoMCYGA1UEAxMf  TWljcm9zb2Z0IFRMUyBHMiBSU0EgQ0EgT0NTUCAwNAITQwAeIiMd6PTlwhuFiAAA  AB4iIzALBglghkgBZQMEAgEwCwYJKoZIhvcNAQEBBIIBADUSWB7Sie/mQBbRdjoN  lzHHeh3z5P+ybGNk57eWGWtE9K8CAyY381Urhd5SKKz7lV+0ulh84MwJ/kpOw8l+  9gj5XMNz4pfSzZLfCViwN2ASjvPcFIrEtdmmUbncNnhQxgeHsGo1kI6u/Vibp1hX  If5WJaHOCYDq5S24lK8kwu8e7LAx3BOiJRrOIKAsKMrFL+IeqHy+JBLXhN5tpnc2  gKsxcIGKmODpZ4CWnNMdvHYXqHfn2G/b1Qc0bPnZKEECghsdpkry7WxswVksqsux  M+QvlJvwXAQn12SrRgRGKkp1H+XAoRk3LxVsBb+sZ7EdK15jTrB3L9C3POsngh+A  QpY="
+[Telemetry::Event] Type: RDPClient Details: ConnectionSettings 
+ Subdetails: {"connectionWebWorkers":true,"useEntraTenantId":true,"useCookieForOrchestration":false,"graphics":{"graphicsWebWorkers":false,"webCodecs":true,"preferHardwareForWebCodecs":true},"redirections":{"printer":false,"microphone":true,"clipboard":false,"location":false,"camera":false,"fileTransfer":false},"inputs":{"codePage":1033,"keyboardLayout":1033,"keyboardType":{},"KeyboardSubType":0}}
+2026-05-22T03:53:21.545Z RdClientConnectionProxy::Create(NORM): LibRDP version: 2.21.4
+2026-05-22T03:53:21.546Z RdClientConnectionProxy::Create(NORM): loading webworkers from path: /webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.js
+2026-05-22T03:53:21.546Z WebWorker(NORM): Created Webworker with path: /webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.js onMessage: HandleConnectionMessage
+2026-05-22T03:53:21.550Z HTML5RdpGraphicsOutputController(NORM): Created in main thread
+[Telemetry::Event] Type: RDPClient Details: ConnectionStatus 
+ Subdetails: Start RDP Connect
+[Telemetry::Event] Type: RDPClient Details: ConnectionStatus 
+ Subdetails: Direct connection path produced WrappedConnection
+2026-05-22T03:53:21.636Z HTML5RdpGraphicsOutputController(NORM): Escape focus handler set
+2026-05-22T03:53:21.636Z HTML5RdpGraphicsOutputController(NORM): Clipboard shortcut handler set
+2026-05-22T03:53:21.636Z HTML5RdpGraphicsOutputController(NORM): IME composition handler set
+2026-05-22T03:53:21.636Z HTML5RdpGraphicsOutputController(NORM): Active downloads checker set
+2026-05-22T03:53:21.636Z HTML5RdpGraphicsOutputController(NORM): Copy trigger handler set
+2026-05-22T03:53:21.637Z HTML5RdpGraphicsOutputController(NORM): Input focus handler set
+[Client][Display] New monitor 0 bounds: [0, 0, 1920, 938]; HighDPI ON
+[Telemetry::Event] Type: Info Details: Fullscreen 
+ Subdetails: Attempting enter fullscreen
+[MainWindow][Fullscreen][Unlocking keyboard]
+2026-05-22T03:53:21.766Z WebWorker(NORM): Destroying Webworker
+2026-05-22T03:53:21.941Z Connection(NORM): Connection created with correlation ID={66221492-8552-4a3f-b55d-7b8c63930000}
+2026-05-22T03:53:21.942Z RdClientConnection::Create(NORM): LibRDP version: 2.21.4
+2026-05-22T03:53:21.942Z Connection::Initialize(NORM): LibRDP version: 2.21.4
+Sending Trace to  using JS Delegate with eventName=ClientConfigurationSettings, trace message={"Attributes":{"IsAudioCaptureEnabled":true,"IsCameraRedirectionEnabled":false,"IsPrintingEnabled":false,"IsClipboardEnabled":false,"IsDriveRedirectionEnabled":false,"IsCoreDiagnosticsEnabled":true,"IsCoreEventHubEnabled":true,"IsConnectionWebWorkerEnabled":true,"IsLocationRedirectionEnabled":false,"IsWatermarkingSupportEnabled":true,"IsAADTenantIdUsed":true,"IsConnectionControlChannelEnabled":false}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.943Z ConnectionEventHub::Event(NORM): ClientConfigurationSettings, Msg: {"Attributes":{"IsAudioCaptureEnabled":true,"IsCameraRedirectionEnabled":false,"IsPrintingEnabled":false,"IsClipboardEnabled":false,"IsDriveRedirectionEnabled":false,"IsCoreDiagnosticsEnabled":true,"IsCoreEventHubEnabled":true,"IsConnectionWebWorkerEnabled":true,"IsLocationRedirectionEnabled":false,"IsWatermarkingSupportEnabled":true,"IsAADTenantIdUsed":true,"IsConnectionControlChannelEnabled":false}}
+2026-05-22T03:53:21.944Z DVCManager(NORM): Registered plugin AudioInputPlugin
+2026-05-22T03:53:21.944Z DVCManager(NORM): Registered plugin DisplayControlGraphicsPlugin
+2026-05-22T03:53:21.945Z DVCManager(NORM): Registered plugin InputPlugin
+2026-05-22T03:53:21.946Z DVCManager(NORM): Registered plugin GfxChannelGraphicsPlugin
+Sending Trace to  using JS Delegate with eventName=OnDetectAudioSupport, trace message=This system does support audio, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.951Z ConnectionEventHub::Event(NORM): OnDetectAudioSupport, Msg: This system does support audio
+2026-05-22T03:53:21.952Z Connection::QueryGraphicsOutputController(WARN): Unable to retrieve controller, delegate or controller is missing.
+2026-05-22T03:53:21.952Z DVCManager(NORM): Registered plugin ECHO
+Sending Trace to  using JS Delegate with eventName=Connection, trace message=Initiating Connect, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.953Z ConnectionEventHub::Event(NORM): Connection, Msg: Initiating Connect
+2026-05-22T03:53:21.953Z Connection(NORM): Diagnostics URL https://rdweb-g-us-r1.wvd.microsoft.com/api/arm/DiagnosticEvents/v1
+2026-05-22T03:53:21.953Z Connection(NORM): Is Direct Launch scenario. Sending checkpoint instead of start event.
+2026-05-22T03:53:21.954Z DiagnosticsUploader::NewRequest(NORM): Adding request 0 to queue
+2026-05-22T03:53:21.954Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:53:21.954Z DiagnosticsUploader::SendRequest(NORM): Sending request 0
+Sending Trace to  using JS Delegate with eventName=DiagUploader, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","Message":"OnAuthentication: Requesting access token for diagnostics","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.954Z","Type":"DiagUploader"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.954Z ConnectionEventHub::Event(NORM): DiagUploader, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","Message":"OnAuthentication: Requesting access token for diagnostics","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.954Z","Type":"DiagUploader"}}
+[Client][Connection][Auth] Fetching claims token
+[Telemetry::Event] Type: RDPClient Details: AuthChallenge 
+ Subdetails: Claims token requested
+Sending Trace to  using JS Delegate with eventName=DiagCheckpointStart, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"AxConnectionStart","ClientOS":"Windows 10","ClientType":"cpc.web.ame","ClientVersion":"2.0.03414.1606","Component":"Client","DiagRequestId":"0","LaunchPartnerActivityId":"<>","LaunchPartnerId":"<>","LaunchPartnerMode":"<>","LaunchPartnerVersion":"<>","LaunchSource":"<>","LoadBalanceInfo":"mth://localhost/33213720-8e42-4e62-9fdb-6c792c7df588/dc03802b-226c-4cc9-9d37-b03cfe23b7ab","PlatformName":"Chrome","PlatformVersion":"146.0.0.0","ResourceType":"RemoteApp","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.953Z","Type":"Checkpoint"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.956Z ConnectionEventHub::Event(NORM): DiagCheckpointStart, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"AxConnectionStart","ClientOS":"Windows 10","ClientType":"cpc.web.ame","ClientVersion":"2.0.03414.1606","Component":"Client","DiagRequestId":"0","LaunchPartnerActivityId":"<>","LaunchPartnerId":"<>","LaunchPartnerMode":"<>","LaunchPartnerVersion":"<>","LaunchSource":"<>","LoadBalanceInfo":"mth://localhost/33213720-8e42-4e62-9fdb-6c792c7df588/dc03802b-226c-4cc9-9d37-b03cfe23b7ab","PlatformName":"Chrome","PlatformVersion":"146.0.0.0","ResourceType":"RemoteApp","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.953Z","Type":"Checkpoint"}}
+[Client][Connection][Auth] Fetching claims token
+[Telemetry::Event] Type: RDPClient Details: AuthChallenge 
+ Subdetails: Claims token requested
+2026-05-22T03:53:21.956Z DVCManager(NORM): Creating plugin AudioInputPlugin
+2026-05-22T03:53:21.956Z DVCManager(NORM): Registering a listener for DVC AUDIO_INPUT
+2026-05-22T03:53:21.956Z DVCManager(NORM): Creating plugin DisplayControlGraphicsPlugin
+Sending Trace to  using JS Delegate with eventName=DisplayControlPlugin, trace message=DisplayControlPlugin created with connection properties., level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.957Z ConnectionEventHub::Event(NORM): DisplayControlPlugin, Msg: DisplayControlPlugin created with connection properties.
+2026-05-22T03:53:21.957Z DVCManager(NORM): Registering a listener for DVC Microsoft::Windows::RDS::DisplayControl
+2026-05-22T03:53:21.957Z DVCManager(NORM): Creating plugin ECHO
+2026-05-22T03:53:21.957Z ExternalVirtualChannel(NORM): Initialize
+2026-05-22T03:53:21.957Z DVCManager(NORM): Registering a listener for DVC ECHO
+2026-05-22T03:53:21.957Z DVCManager(NORM): Creating plugin GfxChannelGraphicsPlugin
+Sending Trace to  using JS Delegate with eventName=GfxChannelGraphicsPluginGenericInformation, trace message=Using classic PipelineGraphicsHandler for graphics handling, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.957Z ConnectionEventHub::Event(NORM): GfxChannelGraphicsPluginGenericInformation, Msg: Using classic PipelineGraphicsHandler for graphics handling
+2026-05-22T03:53:21.957Z DVCManager(NORM): Registering a listener for DVC Microsoft::Windows::RDS::Graphics
+Sending Trace to  using JS Delegate with eventName=GfxChannelGraphicsPluginStateTransition, trace message=State transition from "Closed(0)" to "Listening(1)", level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.957Z ConnectionEventHub::Event(NORM): GfxChannelGraphicsPluginStateTransition, Msg: State transition from "Closed(0)" to "Listening(1)"
+2026-05-22T03:53:21.957Z DVCManager(NORM): Creating plugin InputPlugin
+2026-05-22T03:53:21.957Z DVCManager(NORM): Registering a listener for DVC Microsoft::Windows::RDS::Input
+2026-05-22T03:53:21.958Z WVDGatewayTransport(NORM): Using the Gateway protocol variation for WVD deployments...
+2026-05-22T03:53:21.958Z TokenAcquisitionState(NORM): Entering Gateway connection state TokenAcquisitionState
+[Connection] Status update: Connection Status: Starting connection
+2026-05-22T03:53:21.958Z TokenAcquisitionState(NORM): The Claims auth challenge string is not present.
+[Client][Connection][Auth] Fetching claims token
+[Telemetry::Event] Type: RDPClient Details: AuthChallenge 
+ Subdetails: Claims token requested
+2026-05-22T03:53:21.958Z WVDGatewayTransport(NORM): WVDGatewayTransport connecting...
+[Connection] Status update: Connection Status: Opening remote port
+Sending Trace to  using JS Delegate with eventName=Connection, trace message=Connection initiated. LibRDP version: 2.21.4, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.958Z ConnectionEventHub::Event(NORM): Connection, Msg: Connection initiated. LibRDP version: 2.21.4
+2026-05-22T03:53:21.958Z Connection::SetMonitorLayout(NORM): Set monitor layout called with 1 monitors
+2026-05-22T03:53:21.958Z DisplayControlPlugin(NORM): Validating monitor: Monitor[Bounds: [Left: 0, Top: 0, (1920x938)], Physical Size: 0mm x 0mm, Orientation: Landscape, DesktopScaleFactor: 150, DeviceScaleFactor: 100, Primary: true]
+2026-05-22T03:53:21.958Z DisplayControlPlugin(NORM): SendMonitorLayout fired with success: false
+Sending Trace to  using JS Delegate with eventName=DisplayControlPlugin, trace message=SendMonitorLayout fired with success: 0, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.959Z ConnectionEventHub::Event(NORM): DisplayControlPlugin, Msg: SendMonitorLayout fired with success: 0
+Sending Trace to  using JS Delegate with eventName=DiagUploader, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","Message":"OnAuthCompleted: Access token received for diagnostics.","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.961Z","Type":"DiagUploader"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.961Z ConnectionEventHub::Event(NORM): DiagUploader, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","Message":"OnAuthCompleted: Access token received for diagnostics.","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:21.961Z","Type":"DiagUploader"}}
+Sending Trace to  using JS Delegate with eventName=GatewayStateTransition, trace message=State transition from "TokenAcquisitionState" to "OrchestrationState", level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.993Z ConnectionEventHub::Event(NORM): GatewayStateTransition, Msg: State transition from "TokenAcquisitionState" to "OrchestrationState"
+2026-05-22T03:53:21.993Z OrchestrationState(NORM): Entering Gateway connection state OrchestrationState
+2026-05-22T03:53:21.993Z OrchestrationState(NORM): Skipping SSO token retreival
+2026-05-22T03:53:21.994Z OrchestrationState(NORM): Requesting orchestration from service URL https://afdfp-rdgateway-r1.wvd.microsoft.com:443/api/arm/v2/connections?CorId=%7B66221492-8552-4a3f-b55d-7b8c63930000%7D
+Sending Trace to  using JS Delegate with eventName=OrchestrationState, trace message=The client made a orchestration http POST request to afdfp-rdgateway-r1.wvd.microsoft.com. Retry #0 of #3, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:21.997Z ConnectionEventHub::Event(NORM): OrchestrationState, Msg: The client made a orchestration http POST request to afdfp-rdgateway-r1.wvd.microsoft.com. Retry #0 of #3
+Sending Trace to  using JS Delegate with eventName=DiagResponse, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"0","DiagStatus":"200","HttpRequestId":"1","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:22.195Z","Type":"DiagResponse"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:53:22.198Z ConnectionEventHub::Event(NORM): DiagResponse, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"0","DiagStatus":"200","HttpRequestId":"1","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:53:22.195Z","Type":"DiagResponse"}}
+2026-05-22T03:53:22.200Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:54:21.997Z OrchestrationState(WARN): Orchestration POST request to afdfp-rdgateway-r1.wvd.microsoft.com timed out after 60000 ms and will fall back once to rdgateway-r1.wvd.microsoft.com
+Sending Trace to  using JS Delegate with eventName=OrchestrationState, trace message=Orchestration timed out at afdfp-rdgateway-r1.wvd.microsoft.com after 60000 ms and will fall back once to rdgateway-r1.wvd.microsoft.com, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:54:21.997Z ConnectionEventHub::Event(NORM): OrchestrationState, Msg: Orchestration timed out at afdfp-rdgateway-r1.wvd.microsoft.com after 60000 ms and will fall back once to rdgateway-r1.wvd.microsoft.com
+2026-05-22T03:54:21.999Z DiagnosticsEventLogger(NORM): Received Log Event for Checkpoint OnOrchestrationFallbackToAtmUrl
+2026-05-22T03:54:21.999Z DiagnosticsUploader::NewRequest(NORM): Adding request 1 to queue
+2026-05-22T03:54:21.999Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:54:21.999Z DiagnosticsUploader::SendRequest(NORM): Sending request 1
+Sending Trace to  using JS Delegate with eventName=DiagCheckpoint, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"OnOrchestrationFallbackToAtmUrl","Component":"Client","DiagRequestId":"1","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:54:21.999Z","Type":"Checkpoint"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:54:22.001Z ConnectionEventHub::Event(NORM): DiagCheckpoint, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"OnOrchestrationFallbackToAtmUrl","Component":"Client","DiagRequestId":"1","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:54:21.999Z","Type":"Checkpoint"}}
+Sending Trace to  using JS Delegate with eventName=DiagResponse, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"1","DiagStatus":"200","HttpRequestId":"2","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:54:22.465Z","Type":"DiagResponse"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:54:22.466Z ConnectionEventHub::Event(NORM): DiagResponse, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"1","DiagStatus":"200","HttpRequestId":"2","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:54:22.465Z","Type":"DiagResponse"}}
+2026-05-22T03:54:22.469Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:54:23.005Z OrchestrationState(NORM): Requesting orchestration from service URL https://rdgateway-r1.wvd.microsoft.com:443/api/arm/v2/connections?CorId=%7B66221492-8552-4a3f-b55d-7b8c63930000%7D
+Sending Trace to  using JS Delegate with eventName=OrchestrationState, trace message=The client made a orchestration http POST request to afdfp-rdgateway-r1.wvd.microsoft.com. Retry #0 of #3, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:54:23.007Z ConnectionEventHub::Event(NORM): OrchestrationState, Msg: The client made a orchestration http POST request to afdfp-rdgateway-r1.wvd.microsoft.com. Retry #0 of #3
+2026-05-22T03:55:23.013Z Connection(ERR): The connection generated an internal exception with disconnect code=GatewayNoResponse(59), extended code=<null>, reason=The orchestration POST request timed out after 60000milliseconds
+ Thrown in thread 1649828 at:
+    gateway/orchestrationstate.cpp(1157)
+Call Stack:
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14556]:0x4eddb7
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[1391]:0x85ef8
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14331]:0x4ad60a
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[11355]:0x38a7dd 
+
+    connection.cpp(2041): OnException()
+Sending Trace to  using JS Delegate with eventName=ConnectionException, trace message=An exception has occurred. Details: disconnect code=GatewayNoResponse(59), extended code=<null>, reason=The orchestration POST request timed out after 60000milliseconds
+ Thrown in thread 1649828 at:
+    gateway/orchestrationstate.cpp(1157)
+Call Stack:
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14556]:0x4eddb7
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[1391]:0x85ef8
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14331]:0x4ad60a
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[11355]:0x38a7dd 
+, level=1, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:55:23.013Z ConnectionEventHub::Event(ERR): ConnectionException, Msg: An exception has occurred. Details: disconnect code=GatewayNoResponse(59), extended code=<null>, reason=The orchestration POST request timed out after 60000milliseconds
+ Thrown in thread 1649828 at:
+    gateway/orchestrationstate.cpp(1157)
+Call Stack:
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14556]:0x4eddb7
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[1391]:0x85ef8
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[14331]:0x4ad60a
+        at https://windows.cloud.microsoft/webclient/static/2.0.03414.1606/js/librdphtml_modern_2.21.4/librdphtml.2.0.03414.1606.wasm:wasm-function[11355]:0x38a7dd 
+
+    diagnostics/connectioneventhub.cpp(80): LogCheckpoint()
+Disconnecting...
+2026-05-22T03:55:23.015Z DiagnosticsUploader::NewRequest(NORM): Adding request 2 to queue
+2026-05-22T03:55:23.015Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:55:23.015Z DiagnosticsUploader::SendRequest(NORM): Sending request 2
+Sending Trace to  using JS Delegate with eventName=DiagFinal, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"2","ErrorCode":"59","ErrorCodeSymbolic":"GatewayNoResponse","ErrorInternal":"False","ErrorMessage":"Orchestration failed due to client timeout while waiting for gateway server response.","ErrorOperation":"ClientOrchestration","ErrorSource":"Client","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.015Z","Type":"Final"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:55:23.017Z ConnectionEventHub::Event(NORM): DiagFinal, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"2","ErrorCode":"59","ErrorCodeSymbolic":"GatewayNoResponse","ErrorInternal":"False","ErrorMessage":"Orchestration failed due to client timeout while waiting for gateway server response.","ErrorOperation":"ClientOrchestration","ErrorSource":"Client","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.015Z","Type":"Final"}}
+2026-05-22T03:55:23.020Z DiagnosticsUploader::NewRequest(NORM): Adding request 3 to queue
+Sending Trace to  using JS Delegate with eventName=DiagCheckpoint, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"OnClientDisconnected","Component":"Client","DiagRequestId":"3","DisconnectCode":"59","DisconnectCodeSymbolic":"GatewayNoResponse","DisconnectMessage":"Orchestration failed due to client timeout while waiting for gateway server response.","DisconnectOperation":"ClientOrchestration","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.019Z","Type":"Checkpoint"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:55:23.021Z ConnectionEventHub::Event(NORM): DiagCheckpoint, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","CheckpointName":"OnClientDisconnected","Component":"Client","DiagRequestId":"3","DisconnectCode":"59","DisconnectCodeSymbolic":"GatewayNoResponse","DisconnectMessage":"Orchestration failed due to client timeout while waiting for gateway server response.","DisconnectOperation":"ClientOrchestration","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.019Z","Type":"Checkpoint"}}
+2026-05-22T03:55:23.023Z WVDGatewayTransport(NORM): WVDGatewayTransport closed.
+Disconnected: reason = 59
+[Telemetry::Event] Type: RDPClient Details: DisconnectReason 
+ Subdetails: GatewayNoResponse Code: 59
+[Connection] Disconnected
+[Telemetry::Event] Type: Info Details: NHState 
+ Subdetails: Transition from {Connecting} to {Disconnected Connection}
+Transition from {Connecting} to {Disconnected Connection}
+[Connection] Cleaning up connection
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): Escape focus handler cleared
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): Clipboard shortcut handler cleared
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): IME composition handler cleared
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): Active downloads checker cleared
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): Copy trigger handler cleared
+2026-05-22T03:55:23.080Z HTML5RdpGraphicsOutputController(NORM): Input focus handler cleared
+Failed to send IframeEvent: ,{"type":"Disconnected","interactionRequired":true,"connectionId":"4aae36a6-c211-4016-92a7-23b96c9f0000","sessionId":"95aeb7d8-6fae-4e57-9416-7c1798d1dba2"}
+[Telemetry::Event] Type: RDPClient Details: Clipboard 
+ Subdetails: [ClipboardHelper] Force clear-write-empty-items-success:text/plain,text/plain
+Sending Trace to  using JS Delegate with eventName=DiagResponse, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"2","DiagStatus":"200","HttpRequestId":"3","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.488Z","Type":"DiagResponse"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:55:23.489Z ConnectionEventHub::Event(NORM): DiagResponse, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"2","DiagStatus":"200","HttpRequestId":"3","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.488Z","Type":"DiagResponse"}}
+2026-05-22T03:55:23.490Z DiagnosticsUploader::SendRequest(NORM): Attempting to send next request in queue...
+2026-05-22T03:55:23.490Z DiagnosticsUploader::SendRequest(NORM): Sending request 3
+Sending Trace to  using JS Delegate with eventName=DiagResponse, trace message={"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"3","DiagStatus":"200","HttpRequestId":"4","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.889Z","Type":"DiagResponse"}}, level=4, correlationId=66221492-8552-4a3f-b55d-7b8c63930000
+2026-05-22T03:55:23.889Z ConnectionEventHub::Event(NORM): DiagResponse, Msg: {"Attributes":{"ActivityHint":"ms-wvd-hp:dc03802b-226c-4cc9-9d37-b03cfe23b7ab","ActivityId":"{66221492-8552-4a3f-b55d-7b8c63930000}","ActivityType":"Connection","Component":"Client","DiagRequestId":"3","DiagStatus":"200","HttpRequestId":"4","RoleInstance":"rdwebclient","Timestamp":"2026-05-22T03:55:23.889Z","Type":"DiagResponse"}}
+diagnostics complete
+2026-05-22T03:55:23.890Z WebWorker(NORM): Destroying Webworker
+Canvas lost focus
+Canvas lost focus
+Canvas lost focus
+Canvas lost focus
+Canvas lost focus
+Canvas lost focus
+[Telemetry::Event] Type: Click Details: DisconnectModal 
+ Subdetails: click download log button from connection error
+[Telemetry::UserInteractionEvent] Interaction: Capture Logs
+
+Activity Id:
+66221492-8552-4a3f-b55d-7b8c63930000
+
+Session Id:
+95aeb7d8-6fae-4e57-9416-7c1798d1dba2
+
+nhConnectionCorrelationId:
+4aae36a6-c211-4016-92a7-23b96c9f0000
+
+Flight settings:
+Nh_Mobius_AVD: true
+Nh_FLU: true
+Nh_CloudApps: true
+Nh_Apex_CPC: true
+Nh_Feedback: true
+Nh_Feedback_Prod: true
+Nh_Feedback_V2: true
+Nh_Location_Redirection: true
+Nh_SpecialKey_Redirection: true
+Nh_Camera_Redirection: true
+Nh_Use_Avd_Client_Options: true
+Nh_Use_Entra_B2B_TenantId: true
+Nh_Skip_3p_Cookie_Request: true
+Ufp_Use_New_Fpa: true
+Nh_Remote_App_Launcher: true
+Nh_Disable_WebCodecs_Firefox: true
+Nh_Enable_SW_WebCodecs: false
+Nh_Use_CreateDirectConnection: true
+Nh_Flw_Flu_Direct_Connection: true
+Nh_SendDirectConnection_Diagnostics: true
+Nh_Disable_Atm_Fallback: false
+Nh_Enable_Iframe_Support: true
+Nh_Auto_Enable_High_DPI: true
+Nh_Disable_Performance_Metrics: false
+Nh_Force_Web_Workers: 0
+Nh_Avd_Additional_Telemetry: false
+Nh_Enable_Request_Caching: true
+Nh_Outage_CacheFallback_Rules: false
+Nh_Use_MultiPD_EndpointId: true
+Nh_Use_GlobalSettings: true
+Nh_Enable_Drag_And_Drop: true
+Nh_Enable_Extended_Clipboard: false
+Nh_Enable_Extended_FileTransfer: false
+Nh_Enable_CoreInput_DVC: false
+Nh_Use_CAE: false
+Nh_Use_Login_Hint: true
+Nh_Split_Screen: true
+Nh_Multi_Monitor: false
+Nh_Multi_Monitor_From_RdCore: false
+Nh_Use_Server_Side_Redirections: false
+Nh_FileTransfer_Download_All: false
+Nh_Enable_Skip_Channel_Join: false
+Nh_Enable_Dummy_Side_Transport: false
+Nh_Enable_Svc_Tunneling: false
+Nh_Enable_Connection_Control_Channel: false
+Nh_Claims_Challenge: false
+Nh_Use_Feedback_Auth: false
+
+User Settings:
+theme: Light
+showLocalResourcesUI: true
+allowPrinter: false
+allowMicrophone: true
+allowClipboard: false
+allowLocation: false
+allowCamera: false
+allowFileTransfer: false
+printer: false
+microphone: true
+clipboard: false
+location: false
+camera: false
+fileTransfer: false
+ime: false
+selectedKeyboard: None
+highDpi: Auto On
+downloadConsentStatus: false
+showFlwReminder: true
+avcWebCodecDecodingEnabled: true
+specialKeys: true
